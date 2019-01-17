@@ -60,28 +60,28 @@
     },
     "mediaServicesAccountServicePrincipalClientId": {
       "type": "string",
-      "defaultValue": "",
+      "defaultValue": "18a32c11-8b15-48cc-9461-774926db74fb",
       "metadata": {
         "description": "18a32c11-8b15-48cc-9461-774926db74fb"
       }
     },
     "mediaServicesAccountServicePrincipalClientSecret": {
       "type": "string",
-      "defaultValue": "",
+      "defaultValue": "k9QYoolLDmltD+gShpYP56aO9WrCjaMzOmOyJAsZJRA=",
       "metadata": {
         "description": "k9QYoolLDmltD+gShpYP56aO9WrCjaMzOmOyJAsZJRA="
       }
     },
     "mediaServicesStorageAccountName": {
       "type": "string",
-      "defaultValue": "",
+      "defaultValue": "storage4l2zteehb55iw",
       "metadata": {
         "description": "storage4l2zteehb55iw"
       }
     },
     "mediaServicesStorageAccountKey": {
       "type": "string",
-      "defaultValue": "",
+      "defaultValue": "i0XQfuPEsmJcLtadsmcr5o9Ipu6pbuYYjc45pfKCeJ2EW35t/bUmBB6ZI6Bnke/owBX4GmkMNQYU/LxXN8fiiQ==",
       "metadata": {
         "description": "i0XQfuPEsmJcLtadsmcr5o9Ipu6pbuYYjc45pfKCeJ2EW35t/bUmBB6ZI6Bnke/owBX4GmkMNQYU/LxXN8fiiQ=="
       }
@@ -148,7 +148,7 @@
       },
       "resources": [
         {
-          "type": "Microsoft.Web/sites/sourcecontrols",
+          "type": "sourcecontrols",
           "name": "web",
           "apiVersion": "2015-08-01",
           "comments": "This section sets up source control for continuous integration on the Function app and pulls the source code down from Github.",
